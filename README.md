@@ -28,11 +28,11 @@ https://github.com/htwethan/stat-a-baller
 - Web browser (recommend Google Chrome)
 
 ## Screenshot of Finished Project
-![homepage](https://user-images.githubusercontent.com/112605297/206879509-4e6c3bf4-5862-4ebd-811b-ee3ccaa3ca73.png)
-![star player page](https://user-images.githubusercontent.com/112605297/206879519-8107661e-9528-4127-ba06-4db1f4b891ea.png)
-![modal alert](https://user-images.githubusercontent.com/112605297/206879514-fff12d1f-c7e2-409f-9fbd-d0b88a94aff6.png)
-![option player page](https://user-images.githubusercontent.com/112605297/206879517-0bd46a7f-2981-45b4-bed7-8e8ddb4e7754.png)
-!
+![homepage](./assets/images/screenshot/homepage.png)
+![star player page](./assets/images/screenshot/starPlayerPage.png)
+![modal alert](./assets/images/screenshot/modal screenshot.png)
+![option player page](./assets/images/screenshot/option player page.png)
+
 
 ## Built With
 - Microsoft Visual Studio Code
@@ -43,7 +43,7 @@ https://github.com/htwethan/stat-a-baller
 - Server Side APIs, https://www.balldontlie.io/#introduction
 
 ## Authors
-
+Group Project Members:
 - Christopher Dean [@coderchrisdean](https://www.github.com/coderchrisdean)
 - Seth Davis [@SethDavis16](https://github.com/SethDavis16)
 - Mengxue [@mxu4321](https://github.com/mxu4321)
