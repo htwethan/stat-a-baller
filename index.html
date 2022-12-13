@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+    
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Stat-A-Baller: NBA Statistics for Your Favorite Players!</title>
+  </head>
+  
+  <body>
+
+    <!-- Hero -->
+<section class="hero is-info is-fullheight">
+    <!-- Enter Block for Space in Page -->
+    <div class="block"></div>
+    <!-- Nav -->
+    <nav>
+        <div class="navbar">
+            <div class="container">
+                <!-- <div class="navbar-brand">
+                    <a class="navbar-item"></a>
+                    <span class="navbar-burger" data-target="navbarMenuHeroB">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div> -->
+                <div class="container">
+                    <p class="title">
+                        Stat-A-Baller
+                    </p>
+                    <p class="subtitle">
+                        NBA Statistics for Your Favorite Players!
+                    </p>
+                </div>
+                <!-- Nav Within Hero  -->
+                <!-- <div id="navbarMenuHeroB" class="navbar-menu">
+                    <div class="navbar-end">
+                        add is-active to class ofr effect 
+                        <a class="navbar-item">placeholder</a>
+                        <a class="navbar-item">placeholder</a>
+                        <a class="navbar-item">Placeholder</a>
+            
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+<!-- Project Title -->
+
+<section class="hero-body">
+<div class="container has-text-centered">
+    <!-- Enter Carousel Feature -->
+    <section id="carousel">
+        
+        <div class="columns">
+        <div id="slider" class="container">
+            <!-- Player Giannis Antetokounmpo -->
+        <div class="card column">
+            <div class="card-image">
+                <figure class="image is-16by9 is-covered">
+                    <!-- Link to External Page -->
+                    <a href="" class="link"><img src="./assets/images/players/Antetokounmpo_Giannis-Action.jpg" alt="Giannis Antetokounmpo" /></a>
+                </figure>
+            </div>
+
+        </div>
+
+            <!-- Player Nikola Jokic -->
+        <div class="card column">
+            <div class="card-image">
+                <figure class="image is-16by9 is-covered">
+                    <img src="./assets/images/players/Jokic_Nikola_action.jpg" alt="Nikola Jokic" />
+                </figure>
+            </div>
+
+        </div>
+
+            <!-- Player Lebron James -->
+        <div class="card column">
+            <div class="card-image">
+                    <figure class="image is-16by9 is-covered">
+                        <img src="./assets/images/players/James_Lebron_Action.jfif" alt="Lebron James" />
+                    </figure>
+            </div>
+
+        </div>
+        
+         <!-- Player Steph Curry -->
+        <div class="card column">
+            <div class="card-image">
+                <figure class="image is-16by9 is-covered">
+                    <img src="./assets/images/players/Curry_Steph-Action.jpg" alt="Lebron James" />
+                </figure>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    
+    
+</section>
+<!-- Player Buttons -->
+<section class="container">
+<div class="hero-foot container">
+        <nav class="navbar">
+            
+            <ul>
+            <button id= "btnGA" class="button is-primary is-large"><a class="is-link">Giannis Antetokounmpo</a></button>
+            <button id= "btnSC" class="button is-primary is-large"><a class="is-link">Stephen Curry</a></button>
+            <button id= "btnLJ" class="button is-primary is-large"><a class="is-link">Lebron James</a></button>
+            <button id= "btnNJ" class="button is-primary is-large"><a class="is-link">Nikola Jokic</a></button>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <!-- Get Started Button to Expand Search Option -->
+      <div class="block"></div>
+      <!-- <section class="container">
+        <button id = "btnGetStarted" class="button is-danger is-medium"><a class="is-link"></a>Get Started</a></button>
+    </section> -->
+      <!-- ID: searchForPlayer -->
+
+      <!------ mx: user input to search for players -------->
+      <section class="section is-small">
+        <div id="user-input-div" class="container is-pulled-bottom is-centered">
+          <p>Enter a player's <strong>full name</strong> to search for recent historical performance(a random match within season 2019-2016)</p>
+          <input
+            id="user-input"
+            class="input is-info"
+            type="text"
+            placeholder="Input here"
+          />
+          <button id="user-input-search-btn" class="button is-success">
+            Search Player
+          </button>
+        </div>
+      </section>
+
+      <!------ modal alert ------->
+        <div id="modal-alert" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-content">
+            <div class="modal-card">
+              <header class="modal-card-head"></header>
+              <section class="modal-card-body">
+                <p id="modal-alert-text" class="has-text-black">
+                  Player could not be found. Please try searching for a different name.
+                </p>
+              </section>
+              <footer class="modal-card-foot">
+                <button
+                  id="modal-alert-close-btn"
+                  class="button"
+                  aria-label="close"
+                >
+                  Close
+                </button>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer w/ Nav Bar -->
+      <div class="block"></div>
+      
+
+      <section
+        class="has-navbar-fixed-top navbar-brand is-inline-flex is-justify-content-right">
+        <div
+          class="has-navbar-fixed-top navbar-brand is-inline-flex is-justify-content-left">
+          <p class="text is-medium"><strong>Project-1 (Week 7&8)<br><br>December 12, 2022</strong>
+          </p>
+        </div>
+
+        <div class="tags are-medium">
+          <a class="navbar-item" href="https://github.com/coderchrisdean"
+            ><span class="tag is-black">@Chris</span></a
+          >
+          <a class="navbar-item" href="https://github.com/htwethan"
+            ><span class="tag is-black">@Grace</span></a
+          >
+          <a class="navbar-item" href="https://github.com/SethDavis16"
+            ><span class="tag is-black">@Seth</span></a
+          >
+          <a class="navbar-item" href="https://github.com/mxu4321"
+            ><span class="tag is-black">@Mengxue</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="block"></div>
+ 
+  </section>
+
+
+<script src="./assets/js/script.js"></script>      
+<script src="./assets/js/carousel.js"></script>  
+<script src="./assets/js/ImageStarPlayers.js"></script>
+<script src="./assets/js/starPlayerPge.js"></script>
+
+  </body>
+</html>

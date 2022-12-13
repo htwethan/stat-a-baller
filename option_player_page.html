@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Option players</title>
+  </head>
+
+  <body>
+    <!-- ----------- ⬇ mx: divider ⬇ ------------->
+    <!--------  mx: wrap whole page inside a div --------->
+    <div class="option-player-page has-text-centered">
+      <div id="nba-data-header" class="container is-fullhd">
+        <h1 class="title is-1 has-text-light">NBA Stats</h1>
+        <h4  class="title is-4 has-text-light">
+          <span id="option-player-name">Player's Name</span>
+        </h4>
+        <h5 class="title is-5 has-text-light">
+          <span id="option-player-team">Player's Team</span>
+        </h5>
+      </div>
+
+      <!-- mx: table to display api data -->
+      <div class="display-api-data column is-full">
+        <table class="table has-text-centered">
+          <thead>
+            <tr>
+              <th class="has-text-centered"><abbr title="Year">Season</abbr></th>
+              <th class="has-text-centered">
+                <abbr title="POINTS">POINTS</abbr>
+              </th>
+              <th class="has-text-centered">
+                <abbr title="REBOUNDS">REBOUNDS</abbr>
+              </th>
+              <th class="has-text-centered">
+                <abbr title="STEALS">STEALS</abbr>
+              </th>
+              <th class="has-text-centered">
+                <abbr title="ASSISTS">ASSISTS</abbr>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="has-text-centered"><span id="2019-season">2019</span></th>
+              <td><span id="2019-points">100</span></td>
+              <td><span id="2019-rebounds">200</span></td>
+              <td><span id="2019-steals">300</span></td>
+              <td><span id="2019-assists">400</span></td>
+            </tr>
+            <tr>
+              <th class="has-text-centered"><span id="2018-season">2018</span></th>
+              <td><span id="2018-points">100</span></td>
+              <td><span id="2018-rebounds">200</span></td>
+              <td><span id="2018-steals">300</span></td>
+              <td><span id="2018-assists">400</span></td>
+            </tr>
+            <tr>
+              <th class="has-text-centered"><span id="2017-season">2017</span></th>
+              <td><span id="2017-points">100</span></td>
+              <td><span id="2017-rebounds">200</span></td>
+              <td><span id="2017-steals">300</span></td>
+              <td><span id="2017-assists">400</span></td>
+            </tr>
+            <tr>
+              <th class="has-text-centered"><span id="2016-season">2016</span></th>
+              <td><span id="2016-points">100</span></td>
+              <td><span id="2016-rebounds">200</span></td>
+              <td><span id="2016-steals">300</span></td>
+              <td><span id="2016-assists">400</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br />
+      <a id="go-back" href="./index.html">
+        <button class="go-back-btn button is-dark is-medium">
+          Go Back To Home Page
+        </button>
+      </a>
+    </div>
+    <!-- ----------- ⬆ mx: divider ⬆ ----------- -->
+
+    <!------ mx: link javascript files ------>
+    <script src="./assets/js/option_player.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

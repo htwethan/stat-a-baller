@@ -1,0 +1,49 @@
+.place-center {
+    background: url(../images/StarPlayerPage/StarPlayerPge-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    height:max-content;
+    object-fit: cover;
+    display: block;
+}
+
+.img {
+
+    width: 256px;
+    margin: auto;
+}
+
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fixed-height {
+    height: 350px;
+  }
+  
+  .card-image {
+    height: 200px;
+  }
+  
+  .card-stats {
+    padding: 1.5em;
+  }
+  
+  .card-stats .columns {
+    margin-bottom: 0;
+  }
+  
+  .card-stats .column {
+    padding: 0.5em;
+  }
