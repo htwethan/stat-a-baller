@@ -30,8 +30,8 @@ https://github.com/htwethan/stat-a-baller
 ## Screenshot of Finished Project
 ![homepage](./assets/images/screenshot/homepage.png)
 ![star player page](./assets/images/screenshot/starPlayerPage.png)
-![modalscreenshot png](./assets/images/screenshot/modal screenshot.png)
-![option player page] (.assets/images/screenshot/option player page.png)
+![modalscreenshot png](./assets/images/screenshot/modal-screenshot.png)
+![option player page] (.assets/images/screenshot/option-player-page.png)
 
 ## Built With
 - Microsoft Visual Studio Code
