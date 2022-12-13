@@ -3,7 +3,7 @@
 Stat-A-Baller is a web application that provides users with detailed statistics for NBA players. 
 
 ## Description
-With Stat-A-Baller, users can easily search for any player and view their stats, including points per game, rebounds, assists, and more. The user interface is intuitive and easy to use, making it the perfect tool for any NBA fan looking to stay up-to-date on the latest player statistics.
+With Stat-A-Baller, users can easily search for any player and view their stats, including points per game, rebounds, assists, and more. The user interface is intuitive and easy to use, making it the perfect tool for any NBA fun looking to stay up-to-date on the latest player statistics.
 
 ## Features
 Search bar for easily finding any NBA player
@@ -13,15 +13,15 @@ Key stats of hall of fame NBA players as background pictures on the webpage
 Ability to add favorite players to a "favorites" section for quick access (coming soon)
 
 ## Getting Started
-- Visit the Stat-A-Baller website at https://coderchrisdean.github.io/stat-a-baller/
+- Visit the Stat-A-Baller website at https://htwethan.github.io/stat-a-baller/
 - Enter the famous player name in search input box to find the NBA Stats
 - Click on the player name button to review their short profile
 
 ## Deployed URL
-https://coderchrisdean.github.io/stat-a-baller/
+https://htwethan.github.io/stat-a-baller/
 
 ## Link to Repository
-https://github.com/coderchrisdean/stat-a-baller
+https://github.com/htwethan/stat-a-baller
 
 ## Requirements
 - Internet connection
